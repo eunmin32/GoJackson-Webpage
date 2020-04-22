@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>gojackson</title>
+    <link rel="stylesheet" href="css/style-reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700,800,900i" rel="stylesheet">
+  </head>
+  <body>
+    <a href="index.html"><img src="images/gojacksonlogo.png" alt="gojacksonlogo" height="60px" class="logo"></a>
+    <div id="bg-overlay"></div>
+    <div id="nav-overlay"></div>
+    <div id="header">
+      <img src="images/bgimg.jpg" alt="background" class="bgimg">
+      <div class="menubar">
+            <div class="menu"  id="active"><a href="index.html">ABOUT US</a></div>
+            <div class="menu"><a href="events.html">EVENTS</a></div>
+            <div class="menu" id="calendar"><a href="calendar.html">CALENDAR</a></div>
+            <div class="menu"><a href="officers.html">OFFICERS</a></div>
+            <div class="menu"><a href="contact.html">CONTACT</a></div>
+      </div>
+    </div>
+    <div id="biggrid">
+      <div id="blank">
+        <img src="images/bgimg.png" alt="gojacksonlogo" class="mobile-header">
+      </div>
+      <div id="contents">
+        <div id="helper">
+            <h1>CONTACT</h1>
+            <div class="deco" id="contact-page-head1"></div>
+            <h2 id="contact-page-head2">SEND US A MESSAGE</h2>
+              <form class="gform" method="post" data-email="gojacksonkorea@gmail.com"
+              action="https://script.google.com/macros/s/AKfycbydabeZKkKYzj844MThs5YCmtTnY2wkneJHRl-jZprgBJFOXm4/exec">
+                <div class="namesubject">
+                  <input type="text" id="NAME" name="NAME" placeholder="NAME">
+                  <input type="text" id="EMAIL" name="EMAIL" placeholder="EMAIL">
+                  <input type="text" id="SUBJECT" name="SUBJECT" placeholder="SUBJECT">
+                  <div class="blank"></div>
+                </div>
+                <textarea type="text" id="MESSAGE" name="MESSAGE" placeholder="MESSAGE"></textarea>
+                <input type="submit" id="submit" value="submit">
+                <div style="display:none" class="thankyou_message"></div>
+              </div>
+          </div>
+
+  </body>
+</html>
